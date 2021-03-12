@@ -20,4 +20,4 @@
 - [웹에디터 코드샌드박스(Vanila JS로 생성 및 작업)](https://codesandbox.io/)
 - [개발자도구 사용법 - (Element 탭 사용법만 익혀도 있는 괜찮음)](https://blogpack.tistory.com/756)
 - [자기소개 참고사이트1](https://jeong1233.github.io/website/portfolio/index.html)
-- [자기소개 참고사이트1](https://velopert.com/about)
+- [자기소개 참고사이트2](https://velopert.com/about)
