@@ -1,0 +1,23 @@
+body * {
+  position: absolute;
+  box-sizing: border-box;
+  /* border: 1px solid tomato; */
+}
+
+.subtext {
+  left: 1035px;
+  width: 800px;
+  text-align: left;
+  font: normal normal normal 50px/50px NanumSquare;
+  color: #535353;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+}
+
+.url {
+  font: normal normal normal 40px/50px Arial;
+  color: #535353;
+}
