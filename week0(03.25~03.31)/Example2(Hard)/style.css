@@ -1,0 +1,46 @@
+* {
+  box-sizing: bolder-box;
+}
+
+.flexR {
+  display: flex;
+  align-items: center;
+}
+
+.flexC {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nametext {
+  font: bold normal normal calc(70vw * 0.05) NanumSquare;
+  letter-spacing: calc(70vw * 0.002);
+  color: #ffffff;
+}
+
+.subtext {
+  margin-top: 4%;
+  font: normal normal normal calc(70vw * 0.025) NanumSquare;
+  letter-spacing: calc(70vw * 0.001);
+  color: #ffffff;
+}
+
+.url {
+  text-decoration: none;
+  margin-left: 3%;
+  font: normal normal normal calc(70vw * 0.02) Arial;
+  color: white;
+}
