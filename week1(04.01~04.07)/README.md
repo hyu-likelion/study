@@ -20,7 +20,7 @@
     - [problem 2(별찍기1)](https://www.acmicpc.net/problem/2438)
     - [problem 3(최소, 최대)](https://www.acmicpc.net/problem/10818)
     - [problem 4(상수)](https://www.acmicpc.net/problem/2908)
-    - [problem 5(완주하지 못한 선수) - 어렵기 때문에 제출하지 않아도 됩니다](https://programmers.co.kr/learn/courses/30/lessons/42576)
+    - [problem 5(완주하지 못한 선수)](https://programmers.co.kr/learn/courses/30/lessons/42576) - 어렵기 때문에 제출하지 않아도 됩니다
     #### 2~4 숙련도 문제
     - [problem 1(상수)](https://www.acmicpc.net/problem/2908)
     - [problem 2(평균은 넘겠지)](https://www.acmicpc.net/problem/4344)
