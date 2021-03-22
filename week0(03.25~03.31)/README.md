@@ -26,7 +26,7 @@
 <kbd>![예시2](Example2.png)</kbd>
 
 ### 제출방법 및 기한
-팀별 레포지터리에 week0/이름 으로 폴더를 만들고 index.html, styles.css 를 **3월 31일 밤 11:59**까지 업로드 해주세요. 
+팀별 레포지터리에 week0/이름 으로 폴더를 만들고 index.html, styles.css 를 **3월 30일 밤 11:59**까지 업로드 해주세요. 
 - ex) week0/이정재/index.html, week0/이정재/styles.css
 
 ### 참고할만한 사이트
