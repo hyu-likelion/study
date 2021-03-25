@@ -28,7 +28,7 @@
     - [problem 4(완주하지 못한 선수)](https://programmers.co.kr/learn/courses/30/lessons/42576)
     - [problem 5(전화번호 목록)](https://programmers.co.kr/learn/courses/30/lessons/42577)
     
-3. 가상환경에 설치 된 패키지를 requirement.txt 파일에 저장하여 제출해주세요. 구글에 python requirement.txt를 검색해서 여러 자료를 참고해주세요.
+2. 강의에서 배운 venv를 사용하여 가상환경을 구성하고, 설치 된 패키지를 requirement.txt 파일에 저장하여 제출해주세요. 구글에서 python requirement.txt를 검색하면 관련 내용을 익힐 수 있습니다.
 
 ### 제출방법 및 기한
 팀별 레포지터리에 week1/이름 으로 폴더를 만들고 코드와 requirement.txt 를 **4월 6일 23:59**까지 업로드 해주세요. 
