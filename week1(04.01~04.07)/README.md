@@ -31,6 +31,6 @@
 2. 강의에서 배운 venv를 사용하여 가상환경을 구성하고, 설치 된 패키지를 requirement.txt 파일에 저장하여 제출해주세요. 구글에서 python requirement.txt를 검색하면 관련 내용을 익힐 수 있습니다.
 
 ### 제출방법 및 기한
-팀별 레포지터리에 week1/이름 으로 폴더를 만들고 코드와 requirement.txt 를 **4월 6일 23:59**까지 업로드 해주세요. 
+팀별 레포지터리에 week1/이름 으로 폴더를 만들고(or 본인 브랜치에 week1 폴더를 만들고) 문제 풀이 코드와 requirement.txt 를 **4월 6일 23:59**까지 업로드 해주세요. 
 - ex) week1/김효일/problem(1~5).py, week1/김효일/requirement.txt
 
