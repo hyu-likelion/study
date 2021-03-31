@@ -2,7 +2,7 @@
 
 ## 주차 학습
 멋사 강의를 참고하여 열심히 수강해 주세요.
-- [Class Lion (Python 기초 ~ Django 시작하기)](https://classlion.net/)
+- [Class Lion (Python 기초 ~ MTV패턴)](https://classlion.net/)
 
 ### 참고할만한 사이트
 내용이 부족하거나 더 공부하고 싶다면 아래 링크를 추천드려요.(선택사항)
