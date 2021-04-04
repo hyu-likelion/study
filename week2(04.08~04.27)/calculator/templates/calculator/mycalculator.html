@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>멋사 계산기</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+    <style>
+
+        #container {
+            width: 500px;
+            margin: 10% auto 0;
+        }
+
+        #title {
+            text-align: center;
+            font-size: 3em;
+            font-weight: bold;
+            color: #ff9514;
+            font-family: 'Caveat', cursive;
+        }
+
+        li {
+            font-family: 'Noto Sans KR', sans-serif;
+
+        }
+
+        table {
+            border-collapse: collapse;
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: auto;
+        }
+
+        td {
+            padding: 10px 35px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        input {
+            text-align: right;
+            border: none;
+            width: 100%;
+            height: 100%;
+            font-size: 0.8em;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        #to_main {
+            float: right;
+            color: #ff9514;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        function add(char) {
+            var display = document.getElementById('display');
+            display.value = display.value + char;
+        }
+
+        function calculate() {
+            var display = document.getElementById('display');
+            var result = eval(display.value);
+            document.getElementById('result').value = result;
+        }
+
+        function reset() {
+            document.getElementById('display').value = "";
+            document.getElementById('result').value = "";
+        }
+
+
+    </script>
+</head>
+<body>
+<div id="container">
+    <div id="title">Hello Calculator!</div>
+<!--    users에서 가져온 값을 list 형태로 넣어주세요. for을 통해서 반복하는 내용은 지우지 않았습니다. -->
+    <ul>
+        {%for user in users%}
+        <li>
+<!--            내용     -->
+        </li>
+        {%endfor%}
+    </ul>
+    <table border="1">
+        <tr>
+            <td colspan="4">
+                <input type="text" id="display">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="result">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" onclick="reset()">AC</td>
+            <td onclick="add('/')">/</td>
+        </tr>
+        <tr>
+            <td onclick="add(7)">7</td>
+            <td onclick="add(8)">8</td>
+            <td onclick="add(9)">9</td>
+            <td onclick="add('*')">*</td>
+        </tr>
+        <tr>
+            <td onclick="add(4)">4</td>
+            <td onclick="add(5)">5</td>
+            <td onclick="add(6)">6</td>
+            <td onclick="add('-')">-</td>
+        </tr>
+        <tr>
+            <td onclick="add(1)">1</td>
+            <td onclick="add(2)">2</td>
+            <td onclick="add(3)">3</td>
+            <td onclick="add('+')">+</td>
+        </tr>
+        <tr>
+            <td colspan="2" onclick="add(0)">0</td>
+            <td onclick="add('.')">.</td>
+            <td onclick="calculate()">=</td>
+        </tr>
+    </table>
+    <a href="{% url 'calculator:main' %}" id="to_main"> 메인으로</a>
+
+</div>
+</body>
+</html>
+
+
