@@ -10,11 +10,10 @@ def main(request):
 def create(request):
     if (request.method == 'POST'):
         user = User()
-        user.name = request.POST['name']
-        user.save()
+        # request로 받은 값을 저장하는 내용을 적어주세요.
     return redirect('calculator:calculator')
 
 
 def calculator(request):
-    users = User.objects.all()
+    # users의 모든 내용을 가져오는 query를 적어주세요.
     return render(request, 'calculator/mycalculator.html', {'users': users})
