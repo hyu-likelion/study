@@ -26,6 +26,9 @@
    -   Calculator는 자바스크립트가 포함되어, 코드를 전부 제공합니다. 혹시 관심이 있으시다면, 한번 스스로 만들어 보시는 것도 좋습니다. 
    -   Calculator 화면에서는 메인 화면에서 저장한 User의 name을 list 형태로 제시합니다. (해당 구성은 간단하게 model의 개념과 값을 가져오는 방법에 대해서 이야기 하기 위함입니다)
   
+  
+  <kbd>![메인페이지](mainpage.png)</kbd>
+  <kbd>![메인페이지](calculatorpage.png)</kbd>
     
 
 ### 제출방법 및 기한
