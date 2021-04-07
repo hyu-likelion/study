@@ -28,7 +28,7 @@
   
   
   <kbd>![메인페이지](mainpage.png)</kbd>
-  <kbd>![메인페이지](calculatorpage.png)</kbd>
+  <kbd>![계산기페이지](calculatorpage.png)</kbd>
     
 
 ### 제출방법 및 기한
