@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-#     url을 연결해줍니다.
+    # calculator 앱과 연결해주세요.
 ]

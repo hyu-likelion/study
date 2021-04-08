@@ -21,21 +21,21 @@
         font-family: 'Caveat', cursive;
     }
 
-    #form_cover {
+    #result_cover {
         display: flex;
         flex-direction: column;
         text-align: center;
         margin-top: 10px;
     }
 
-    #form_title {
+    #result_title {
         font-size: 1.5em;
         color: #525252;
         font-family: 'Noto Sans KR', sans-serif;
         margin-bottom: 10px;
     }
 
-    input {
+    #result {
         font-size: 1em;
         padding: 10px;
         border-radius: 10px;
@@ -43,32 +43,23 @@
         text-align: center;
     }
 
-    input:focus {
-        outline: none;
-    }
-
-    #submit {
+    #to_main {
         float: right;
-        margin-top: 10px;
-        background-color: #ff9514;
-        color: white;
-        font-family: 'Noto Sans KR', sans-serif;
-        border: none;
-        cursor: pointer;
+        color: #ff9514;
+        margin-top: 20px;
+        text-decoration: none;
     }
 
 </style>
 <body>
 <div id="container">
     <div id="title">Hello Django!</div>
-    <form action="{% url 'calculator:create' %}" method="post">
-        {% csrf_token %}
-        <div id="form_cover">
-            <label id="form_title">이름을 적어주세요</label>
-            <input type="text" name="name" id="name">
-        </div>
-        <input id="submit" type="submit" value="글쓰기">
-    </form>
+    <div id="result_cover">
+        <div id="result_title"> Result</div>
+        <!-- <div id="result"> 결과값 제공 </div> --> 
+    </div>
+    <!-- <a href="" id="to_main"> 메인으로가는 링크 제공</a> -->
+
 </div>
 
 </body>
