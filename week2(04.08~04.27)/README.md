@@ -3,7 +3,7 @@
 
 ## 주차 학습
 멋사 강의를 참고하여 열심히 수강해 주세요.
-- [Class Lion (Django 오리엔테이션 ~ Model 실습, Template 상속 ~ Form)](https://classlion.net/)
+- [Class Lion (Django 오리엔테이션 ~ Model 실습)](https://classlion.net/)
 
 ### 참고할만한 사이트
 내용이 부족하거나 더 공부하고 싶다면 아래 링크를 추천드려요.(선택사항)
@@ -17,18 +17,15 @@
 1. 강의에서 진행하는 WordCount 과제를 완성해서 올려주세요.
 
 
-2. 올라간 계산기 템플릿을 기반으로, 빈칸을 채워서 완성해주세요.
-   -   채우실  내용은 주석 형태 (# 작성할 내용)로 적어놓았습니다. 관련 파일은 다음과 같습니다.
+2. 올라간 계산기 템플릿을 기반으로, 빈칸을 채워서 완성해주세요. 굳이 해당 템플릿 기반이 아니어도 상관없습니다 :)
+   -   채우실  내용은 주석 형태 (# 작성할 내용)로 적어놓았습니다. 관련 파일은 다음과 같습니다. 
        -   example/settings.py, urls.py
-       -   calculator/urls.py, views.py, models.py
-       -   calculator/templates/calculator/mycalculator.html 파일입니다.
-   -   메인화면에서는 User 모델을 저장합니다. (User모델은 name이라는 요소를 포함합니다.)
-   -   Calculator는 자바스크립트가 포함되어, 코드를 전부 제공합니다. 혹시 관심이 있으시다면, 한번 스스로 만들어 보시는 것도 좋습니다. 
-   -   Calculator 화면에서는 메인 화면에서 저장한 User의 name을 list 형태로 제시합니다. (해당 구성은 간단하게 model의 개념과 값을 가져오는 방법에 대해서 이야기 하기 위함입니다)
+       -   calculator/urls.py, views.py,
+       -   calculator/templates/calculator/mycalculator.html, main.html 파일입니다.
   
   
-![메인페이지](./mainpage.PNG)
-![계산기페이지](./calculatorpage.PNG)
+![메인페이지](./main.PNG)
+![계산기페이지](./calculator.PNG)
     
 
 ### 제출방법 및 기한
