@@ -8,7 +8,7 @@
 내용이 부족하거나 더 공부하고 싶다면 아래 링크를 추천드려요.(선택사항)
 - [7기 Django 교육자료 영상 스크립트](https://www.notion.so/4eed5a2343bb4f09874fe6c56ea4ace8?v=138c8b8b488e42b6a2cc603714db9e4f)
 - [REST란?](https://medium.com/@hckcksrl/rest%EB%9E%80-c602c3324196)
-- [REST란? REST API란? RESTful이란?](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
+- [REST vs REST API vs RESTful](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
 
 ## 주차 과제
 1. 강의 실습 코드 github에 업로드
