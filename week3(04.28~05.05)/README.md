@@ -1,5 +1,3 @@
-# Python 기초와 가상환경 구축
-
 ## 주차 학습
 멋사 강의를 참고하여 열심히 수강해 주세요.
 - [Class Lion (CRUD, 유저 확장과 인증, Paiginator)](https://classlion.net/)
