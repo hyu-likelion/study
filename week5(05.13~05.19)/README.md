@@ -3,7 +3,9 @@
 
 이번주는 javascript에 대하여 배우고 다음주부터 이제 본격적으로 React 개발이 시작됩니다. 
 
-강의 열심히 들어주시고, React로 어서 배워서 해커톤 때 협동해서 재밌는 것을 만들면 좋겠습니다.
+React를 빨리 배워서 해커톤 때 협동해서 재밌는 것을 만들면 좋겠습니다.
+
+강의 열심히 수강해주세요.
 
 비동기처리를 위한 **콜백함수, promise, async await** 를 온전히 이해하도록 노력해주세요 :-)
 
@@ -13,7 +15,7 @@
 
 ## 주차 과제
 1. 바닐라JS로 크롬 앱 만들기 강의 내용을 따라서 클론 코딩하고 정상 동작 여부 확인 뒤 업로드
-2. js로 간단한 알고리즘 풀고 정답 화면 캡쳐 및 업로드
+2. JS로 간단한 알고리즘 풀고 정답 화면 캡쳐 및 업로드
 - [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)
 - [k번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 - [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/12921)
@@ -25,3 +27,6 @@
 - ex) week5/이정재/문제1.jpg
 - ex) week5/이정재/문제2.jpg
 - ex) week5/이정재/README.md
+
+## 마치며
+SPA, SSR 등을 검색해보시고 각각의 장점과 단점을 찾아보시는 것도 좋을 것 같습니다.
