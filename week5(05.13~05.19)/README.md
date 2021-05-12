@@ -11,7 +11,7 @@ React를 빨리 배워서 해커톤 때 협동해서 재밌는 것을 만들면 
 
 ### 주차 학습
 - [바닐라JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners)
-- [멋사 강의-React를 위한 JS](https://class.likelion.org) - ID : bluekmky@likelion.org   PASS : 96393439 
+- [멋사 강의- React With Django ](https://class.likelion.org) - id/pass : bluekmky@likelion.org / 96393439 (챕터 1인 react를 위한 JS 까지 들으시면 됩니다.)
 - [자바스크립트 강의](https://www.youtube.com/watch?v=wcsVjmHrUQg&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2) - 제가 즐겨듣는 강의인데, 강추합니다.(필수는 아닙니다.)
 
 ## 주차 과제
