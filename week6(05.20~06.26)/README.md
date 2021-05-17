@@ -1,5 +1,4 @@
 ## 주차 학습
-멋사 강의를 참고하여 열심히 수강해 주세요. 
 - [ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-fundamentals)
 
 ### 참고할만한 사이트
